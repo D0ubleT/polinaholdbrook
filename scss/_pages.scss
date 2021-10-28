@@ -1,0 +1,93 @@
+/**
+* Styles for pages.
+*/
+body {
+	background-color: $color-pink;
+
+	main {
+		max-width: 100%;
+		margin: 60px auto 0;
+
+		section {
+			min-height: 400px;
+			padding: 25px;
+
+			article {
+
+				h1, h2 {
+					color: $theme-main-color;
+					text-align: center;
+					font-size: 24px;
+				}
+
+				p {
+					font-size: 18px;
+					color: $color-black;
+
+					del {
+						text-decoration: line-through;
+					}
+
+					strong {
+						color: $theme-main-color;
+					}
+				}
+			}
+
+
+			&#inicio {
+				padding-top: 20px;
+				text-align: center;
+
+				p {
+					font-size: 18px;
+					width: 218px;
+					margin: 0 auto;
+				}
+
+				img {
+					max-width: 200px;
+					width: 100%;
+					margin: 0 auto;
+					display: block;
+					margin-bottom: 20px;
+				}
+			}
+		}
+	}
+}
+
+@media (min-width: $breakpoint-tablet) {
+	body {
+		main {
+			max-width: 100%;
+			margin: 45px auto 0;
+
+			section {
+
+				article {
+
+					h1, h2 {
+						font-size: 40px;
+					}
+
+					p {
+						font-size: 24px;
+					}
+				}
+
+				&#inicio {
+					p {
+						font-size: 24px;
+						width: auto;
+					}
+
+					img {
+						margin-bottom: 60px;
+						max-width: 300px;
+					}
+				}
+			}
+		}
+	}
+}
