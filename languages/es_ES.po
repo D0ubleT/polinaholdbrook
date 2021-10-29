@@ -1,0 +1,11 @@
+msgid "Header Menu"
+msgstr "Menu para Header"
+
+msgid "Hamburger Menu (Mobile)"
+msgstr "Menu Hamburguesa (Mobile)"
+
+msgid "Footer Menu"
+msgstr "Menu para Footer"
+
+msgid "More"
+msgstr "Más"
