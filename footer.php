@@ -9,7 +9,7 @@
 
 ?>
 </main>
-<footer id="colophon" class="site-footer">
+<footer id="sweet" class="site-footer">
 	<?php
 	polinaholdbrook_print_menu( 'footer' );
 	?>
