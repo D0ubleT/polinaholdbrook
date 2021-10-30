@@ -1,4 +1,4 @@
-footer {
+footer#sweet.site-footer {
 	display: flex;
 	flex-direction: row;
 	margin: 0;
@@ -13,6 +13,10 @@ footer {
 
 	a.powered-by {
 		flex: auto;
-		font-size: 11px;
+		font-size: 13px;
+		span {
+			font-family: 'Open Sans Condensed';
+			color: #f10e2d5e;
+		}
 	}
 }
