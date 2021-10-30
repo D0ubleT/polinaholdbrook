@@ -1,0 +1,65 @@
+/**
+* Styles for page "en construcción".
+*/
+body.page.page-en-construccion {
+	background-color: $color-pink;
+
+	main {
+		max-width: 100%;
+		margin: 60px auto 0;
+
+		section {
+			padding-top: 20px;
+			text-align: center;
+
+			h1, h2 {
+				color: $theme-main-color;
+				text-align: center;
+				font-size: 24px;
+			}
+
+			h3 {
+				font-size: 18px;
+				width: 218px;
+				color: $color-black;
+			}
+
+			figure {
+				img {
+					max-width: 200px;
+					width: 100%;
+					margin: 0 auto;
+					display: block;
+					margin-bottom: 20px;
+				}
+			}
+		}
+	}
+}
+
+@media (min-width: $breakpoint-tablet) {
+	body.page.page-en-construccion {
+		main {
+			max-width: 100%;
+			margin: 45px auto 0;
+
+			section {
+				h1, h2 {
+					font-size: 40px;
+				}
+
+				h3 {
+					font-size: 24px;
+					width: auto;
+				}
+
+				figure {
+					img {
+						margin-bottom: 60px;
+						max-width: 300px;
+					}
+				}
+			}
+		}
+	}
+}

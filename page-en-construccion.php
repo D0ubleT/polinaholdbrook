@@ -8,11 +8,9 @@
  */
 
 get_header();
-?>
-<section id="inicio">
-	<img src="./img/perfil.png" alt="Imagen de perfil de Polina Holdbrook">
-	<h1>Sitio en construcción.</h1>
-	<p>Pronto tendrás muchas novedades.</p>
-</section>
-<?php
+
+the_title( '<h1 class="entry-title">', '</h1>' );
+
+the_content();
+
 get_footer();

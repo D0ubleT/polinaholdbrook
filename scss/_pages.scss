@@ -1,19 +1,22 @@
 /**
 * Styles for pages.
 */
-body {
+body.page {
 	background-color: $color-pink;
 
 	main {
 		max-width: 100%;
 		margin: 60px auto 0;
 
+		h1.entry-title {
+			display: none;
+		}
+
 		section {
 			min-height: 400px;
-			padding: 25px;
+			padding: 10px 25px;
 
 			article {
-
 				h1, h2 {
 					color: $theme-main-color;
 					text-align: center;
@@ -33,26 +36,6 @@ body {
 					}
 				}
 			}
-
-
-			&#inicio {
-				padding-top: 20px;
-				text-align: center;
-
-				p {
-					font-size: 18px;
-					width: 218px;
-					margin: 0 auto;
-				}
-
-				img {
-					max-width: 200px;
-					width: 100%;
-					margin: 0 auto;
-					display: block;
-					margin-bottom: 20px;
-				}
-			}
 		}
 	}
 }
@@ -64,7 +47,6 @@ body {
 			margin: 45px auto 0;
 
 			section {
-
 				article {
 
 					h1, h2 {
@@ -73,18 +55,6 @@ body {
 
 					p {
 						font-size: 24px;
-					}
-				}
-
-				&#inicio {
-					p {
-						font-size: 24px;
-						width: auto;
-					}
-
-					img {
-						margin-bottom: 60px;
-						max-width: 300px;
 					}
 				}
 			}

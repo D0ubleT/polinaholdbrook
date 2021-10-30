@@ -10,4 +10,9 @@ footer {
 	color: $theme-main-color;
 	justify-content: right;
 	font-size: 50px;
+
+	a.powered-by {
+		flex: auto;
+		font-size: 11px;
+	}
 }
