@@ -5,11 +5,12 @@ footer#sweet.site-footer {
 	width: 100%;
 	height: 60px;
 	align-items: center;
-	background-color: $color-pink;
+	background-color: $general-primary-color;
 	padding: 0 50px;
 	color: $theme-main-color;
 	justify-content: right;
 	font-size: 50px;
+	font-family: $second-font;
 
 	a.powered-by {
 		flex: auto;

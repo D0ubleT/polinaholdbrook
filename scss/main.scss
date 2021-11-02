@@ -7,15 +7,28 @@
 $breakpoint-tablet: 650px;
 $breakpoint-desktop: 1024px;
 
-$theme-main-color: #f10e2d;
-$color-black: #000;
-$color-white: #FEFAFC;
-$color-pink: #f1b1b3;
+$theme-main-color: #d74c68;
+$general-primary-color: #f4f0d7;
+$general-secondary-color: #cee6d0;
+$general-tertiary-color: #e0c097;
 
-$theme-main-font: 'Raleway';
+/* Usa mismo (theme) main color*/
+$libretas-primary-color: #edf6e5;
+$libretas-secondary-color: #b4eaea;
+/* Usa mismo (general) tertiary color*/
+
+$tarot-main-color: #201e36;
+/* Usa mismo (general) primary color*/
+$tarot-secondary-color: #87497a;
+$tarot-tertiary-color: #413452;
+
+$color-black: #0a0a0a;
+$color-white: #FEFAFC;
+
+$theme-main-font: 'Patrick Hand';
+$second-font: 'Roboto';
 
 $img-directory: "img";
-
 
 @import '_normalize';
 @import '_fonts';

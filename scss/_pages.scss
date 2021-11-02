@@ -2,7 +2,7 @@
 * Styles for pages.
 */
 body.page {
-	background-color: $color-pink;
+	background-color: $general-primary-color;
 
 	main {
 		max-width: 100%;
@@ -19,12 +19,14 @@ body.page {
 			article {
 				h1, h2 {
 					color: $theme-main-color;
+					font-family: $theme-main-font;
 					text-align: center;
 					font-size: 24px;
 				}
 
 				p {
 					font-size: 18px;
+					font-family: $second-font;
 					color: $color-black;
 
 					del {
