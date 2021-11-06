@@ -4,11 +4,11 @@
  *
  * @link https://developer.wordpress.org/themes/basics/theme-functions/
  *
- * @package Polina_Theme
+ * @package polinaholdbrook
  */
 
 if ( ! defined( 'polinaholdbrook_VERSION' ) ) {
-	define( 'polinaholdbrook_VERSION', '0.0.1' );
+	define( 'polinaholdbrook_VERSION', '1.0.1' );
 }
 
 add_action(

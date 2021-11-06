@@ -4,7 +4,7 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
  *
- * @package ALT_Cooperativa
+ * @package polinaholdbrook
  */
 
 get_header();

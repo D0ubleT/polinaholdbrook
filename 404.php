@@ -9,7 +9,7 @@
 
 get_header();
 ?>
-	<h2>Lo lamentamos! No encontramos la página que estás buscando.</h2>
+	<h2>¡Lo lamentamos! No encontramos la página que estás buscando.</h2>
 <?php
 
 get_footer();

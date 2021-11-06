@@ -10,14 +10,14 @@
 ?>
 </main>
 <footer id="sweet" class="site-footer">
-	<?php
+	<!-- <?php
 	polinaholdbrook_print_menu( 'footer' );
-	?>
-	<a class="powered-by" href="https://github.com/D0ubleT/" target="_blank">
-		<span class="powered">powered by D0ubleT</span>
-	</a>
+	?> -->
 	<a href="https://www.instagram.com/polina_holdbrook/" target="_blank" title="Instagram @polina_holdbrook">
 		<i class="fab fa-instagram"></i>
+	</a>
+	<a class="powered-by" href="https://github.com/D0ubleT/" target="_blank">
+		<span class="powered">powered by D0ubleT</span>
 	</a>
 </footer>
 <?php wp_footer(); ?>

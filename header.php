@@ -26,15 +26,15 @@
 </head>
 <body <?php polinaholdbrook_print_body_class(); ?>>
 	<header>
-		<!-- <div class="inner-container">
-		<a href="<?php bloginfo( 'url' ); ?>" class="site-icon">
-		<img src="<?php site_icon_url(); ?>">
-	</a>
-	<?php polinaholdbrook_print_menu( 'header' ); ?>
-	<div id="hamburger-menu-container">
-	<button id="hamburger-menu-toggler">+ / -</button>
-	<?php polinaholdbrook_print_menu( 'hamburger' ); ?>
-</div>
-</div> -->
-</header>
-<main>
+		<div class="inner-container">
+			<a href="<?php bloginfo( 'url' ); ?>" class="site-icon">
+				<img src="<?php echo esc_attr( get_stylesheet_directory_uri() . '/img/perfil.png' ); ?>">
+			</a>
+			<?php polinaholdbrook_print_menu( 'header' ); ?>
+			<!-- <div id="hamburger-menu-container">
+				<button id="hamburger-menu-toggler">+ / -</button>
+				<?php polinaholdbrook_print_menu( 'hamburger' ); ?>
+			</div> -->
+		</div>
+	</header>
+	<main>

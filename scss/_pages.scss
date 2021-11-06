@@ -6,10 +6,16 @@ body.page {
 
 	main {
 		max-width: 100%;
-		margin: 60px auto 0;
+		margin: 0 auto;
 
 		h1.entry-title {
 			display: none;
+		}
+
+		h1, h2 {
+			color: $theme-main-color;
+			font-family: $theme-main-font;
+			text-align: center;
 		}
 
 		section {
@@ -40,23 +46,260 @@ body.page {
 			}
 		}
 	}
-}
 
-@media (min-width: $breakpoint-tablet) {
-	body {
+	&.page-sobre-mi {
 		main {
 			max-width: 100%;
-			margin: 45px auto 0;
+			margin: 30px auto 50px;
+
+			img {
+				max-height: 600px;
+				width: auto;
+				height: 100%;
+				margin: 0 auto;
+				display: block;
+			}
+
+			h2.washi {
+				float: left;
+				color: $theme-main-color;
+			}
+
+			article.wp-block-group.paper {
+				color: $general-primary-color;
+			}
+		}
+
+		&.page-novedades {
+			.wp-block-jetpack-google-calendar {
+				min-width: 300px;
+			}
+		}
+	}
+
+	&.page-contacto {
+		main {
+			margin-bottom: 70px;
+		}
+
+		section.wp-block-group.contacto {
+			max-width: 700px;
+			background-color: $color-white;
+			margin: 20px auto;
+			padding: 1px 20px;
+			border-radius: 30px;
+
+			label {
+				margin-bottom: 10px;
+				display: inline-block;
+				font-weight: 600;
+			}
+
+			input {
+				margin-bottom: 25px;
+				width: 100%;
+				border: 1px solid $theme-main-color;
+			}
+
+			textarea#consulta {
+				width: 100%;
+				height: 180px;
+				overflow-y: auto;
+				border: 1px solid $theme-main-color;
+			}
+
+			input#submit {
+				background-color: $general-primary-color;
+				border: 1px solid $theme-main-color;
+				border-radius: 10px;
+				color: $theme-main-color;
+				height: 30px;
+				margin: 15px auto;
+				display: block;
+			}
+		}
+	}
+}
+
+@media (max-width:$breakpoint-desktop) {
+	body.page {
+		&.page-sobre-mi {
+			main {
+				h2.washi {
+					font-size: 30px;
+					margin: 35px 36px 20px;
+				}
+
+				article.wp-block-group.paper {
+					background-color: $tarot-tertiary-color;
+					padding: 77px 35px 10px;
+				}
+			}
+		}
+
+		&.page-novedades {
+			main {
+				section {
+					padding: 10px;
+					margin-bottom: 15px;
+
+					.mes-de-eventos {
+						background-color: $general-tertiary-color;
+						border-radius: 30px;
+
+						.feria-evento {
+							iframe {
+								width: 100%;
+								height: 340px;
+								min-width: 300px;
+								max-width: 630px;
+								margin: 0 auto 10px;
+								display: block;
+								border-radius: 20px;
+							}
+						}
+					}
+
+					.wp-block-jetpack-google-calendar {
+						min-width: 100%;
+						display: block;
+						margin: 0 auto 5px;
+
+						iframe {
+							width: 100%;
+							height: 340px;
+							max-width: 600px;
+							margin: 0 auto;
+							display: block;
+						}
+					}
+				}
+
+				h1 {
+					font-size: 45px;
+				}
+			}
+		}
+	}
+}
+@media (min-width: $breakpoint-tablet) {
+	body.page {
+		main {
+			max-width: 100%;
+			margin: 0 auto;
 
 			section {
 				article {
-
 					h1, h2 {
-						font-size: 40px;
+						font-size: 35px;
+					}
+
+					h3 {
+						font-size: 24px;
 					}
 
 					p {
+						font-size: 20px;
+					}
+				}
+
+				&.mes-de-eventos {
+					background-color: $general-tertiary-color;
+					border-radius: 30px;
+					margin-bottom: 25px;
+
+					h2 {
+						font-size: 30px;
+					}
+
+					article.feria-evento {
+						iframe {
+							width: 450px;
+							height: 350px;
+							display: block;
+							margin: 20px auto;
+							border-radius: 30px;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+@media (min-width: $breakpoint-desktop) {
+	body.page {
+		main {
+			margin-left: 180px!important;
+
+			section {
+				padding: 10px 35px;
+			}
+		}
+
+		&.page-sobre-mi {
+			main {
+				margin: 65px auto 30px;
+
+				img {
+					max-width: 500px;
+					float: left;
+					margin-top: 20px;
+				}
+
+				h2.washi {
+					font-size: 40px;
+					margin: 35px 0px 0px 20px;
+				}
+
+				article.wp-block-group.paper {
+					background-image: url(https://polinaholdbrook.com.ar/wp-content/themes/polinaholdbrook/img/paper.png);
+					background-repeat: no-repeat;
+					background-size: 100%;
+					width: 570px;
+					height: 638px;
+					margin-top: -45px;
+					margin-left: 340px;
+					padding: 73px 35px 0;
+
+				}
+			}
+		}
+
+		&.page-novedades {
+			main {
+				margin-bottom: 50px;
+				
+				section {
+					.wp-block-jetpack-google-calendar iframe {
+						height: 400px;
+						margin: 0 auto 10px;
+						width: 630px;
+						display: block;
+					}
+
+					h1, h2 {
+						font-size: 35px;
+					}
+
+					h3 {
 						font-size: 24px;
+					}
+
+					p {
+						font-size: 20px;
+					}
+
+					section.wp-block-group.mes-de-eventos {
+						article.wp-block-group.feria-evento {
+							.wp-block-image {
+								figure.aligncenter.size-full {
+									img {
+										max-width: 640px;
+									}
+								}
+							}
+						}
 					}
 				}
 			}
